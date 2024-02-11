@@ -8,7 +8,7 @@ The sample rate is 250Hz and the resolution is 12 bits. The signal is amplified 
 2. Connect the ESP32 to the computer.
 3. Upload the code to the ESP32.
 4. Open the app AWECG and connect to the ESP32.
-5. Enjoy!
+   
 
 ## How to connect the AD8232
 The AD8232 get the ECG signal to get I derivation. It's necessary to connect the AD8232 to the ESP32 with the following pins:
@@ -17,10 +17,10 @@ The AD8232 get the ECG signal to get I derivation. It's necessary to connect the
 |--------|-------|
 | GND    | GND   |
 | 3.3v   | 3.3V  |
-| OUTPUT | IO 32 |
-| LO+    | NC    |
-| LO-    | NC    |
-| SDN    | IO 14 |
+| OUTPUT |  P32  |
+| SDN    |  P14  |
 
-## How to connect the Wake-up button
+🛑 to connect the app to ESP32s you should pressing the wake up button. 🔘✅
+
+## How to connect the Wake-up button?
 The wake-up button is used to wake-up the ESP32 from deep sleep mode. The Button is connected to the ESP32 using a pull-down resistor. The ESP32 is waked-up when the button is pressed. The button is connected to the ESP32 with the IO 12.
